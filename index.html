@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="" class="form">
+        <p class="intro">ITMD 4/541 - Lab 3 - Julaam Diop</p>
+        <h1 class="title">Tip Calculator</h1>
+        <div class="form__items">
+          <label for="total">Bill Total: </label>
+          <input type="text" class="bill_total" />
+          <p class="error"></p>
+
+          <label for="tip"> Tip: </label>
+          <input type="range" name="tip" id="tip" value="20" />
+
+          <label for="total">Tip Percentage: </label>
+          <input type="text" class="tip_percent" disabled />
+
+          <label for="total">Tip Amount: </label>
+          <input type="text" class="tip_amount" disabled />
+
+          <label for="total"> Total Bill with Tip: </label>
+          <input type="text" class="total_bill_tip" disabled />
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,1 +1,62 @@
+body {
+    background-color: #E5E5E5;
+}
 
+
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+    color: #023047;
+    font-family: 'Helvetica';
+}
+
+
+p {
+    font-size: 1rem;
+
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+input {
+    font-size: 1.25rem;
+}
+
+input:disabled {
+    background-color: #dce4e8;
+    border: 1px solid #023047;
+}
+
+.intro {
+    text-align: center;
+}
+
+.title {
+    margin-top: 1rem;
+}
+
+.form {
+    background-color: #E7F4F8;
+    padding: 3rem;
+    border: 2px #023047 solid;
+    font-size: 1.25rem;
+}
+
+.form__items {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.error {
+    display: none;
+    color: #e60000;
+    font-weight: 600;
+}
